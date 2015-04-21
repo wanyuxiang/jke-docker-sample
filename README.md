@@ -13,4 +13,4 @@ Sample dockerized J2EE application
 		docker run --link mysql-server:mysql-server -d jke/db
 		docker run --link mysql-server:mysql-server -P -d jke/web
 
-### Check the running JKE Banking running at http://192.168.27.100:8080
+### Check the running JKE Banking running at http://<host-server>:8080
